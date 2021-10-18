@@ -2,10 +2,10 @@
 
 clear
 
-echo " Please enter the payload type"
-echo " 1. WINDOWS "
-echo " 2. ANDROID "
-read -p " Chosse the option: " option1
+echo " Please enter the type of payload you want to choose"
+echo " 1. WINDOWS payload "
+echo " 2. ANDROID payload "
+read -p " choose the option: " option1
 
 clear
 
@@ -18,9 +18,9 @@ echo " YOUR LPORT $lport"
 sleep 1s
 clear
 
-echo " Where would you like to store your payload "
+echo " Where would you like to save your payload "
 echo "                      OR                  "
-echo " Press enter to store in root directory "
+echo " Press enter to store or save in root directory "
 read -p " Enter the location:- " location
 
 clear
